@@ -1,0 +1,44 @@
+.skill-container  {
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(183, 15, 15, 0.1);
+   
+    background-color: #222a29;
+    margin-left: 0px;
+}
+
+.Most-languages {
+    width: 400px; 
+    height: auto; 
+    border: 2px solid #333; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    margin: 20px; 
+    padding: 10px; 
+    background-color: #f0f0f0; 
+    transition: transform 0.3s ease;
+  }
+  
+  .Most-languages:hover {
+    transform: scale(1.55);
+  }
+  .Github-stats {
+    width: 400px; 
+    height: auto; 
+    border: 2px solid #333; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(242, 6, 6, 0.2); 
+    margin: 20px; 
+    padding: 10px; 
+    background-color: #1e07c7; 
+    transition: transform 0.3s ease;
+  
+  }
+  
+  .Github-stats:hover {
+    transform: scale(1.45);
+    background-color: #fff;
+    
+  }
