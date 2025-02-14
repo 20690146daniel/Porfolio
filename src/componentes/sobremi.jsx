@@ -4,7 +4,7 @@ function SobreMi() {
 
     const about = {
         titulo: "Sobre Mi",
-        sobremi:"Egresado de Ingeniería en Sistemas Computacionales con experiencia en desarrollo y mantenimiento de aplicaciones web y móviles. Lideré proyectos como una app de citas médicas con Flutter y MongoDB Atlas, y optimicé sistemas en Laravel, incorporando módulos avanzados con gráficos interactivos y generación de informes. Diseñé contenedores Docker para mejorar la escalabilidad y despliegue. Apasionado por aprender nuevas tecnologías y crear soluciones eficientes que aporten valor."
+        sobremi:"Soy un ingeniero en sistemas computacionales apasionado por el desarrollo de aplicaciones web y móviles. Cuento con experiencia en liderazgo de proyectos, optimización de sistemas y creación de soluciones eficientes.Me especializo en el uso de tecnologías como Flutter, Laravel, React, Node.js (Express), MongoDB Atlas y Docker, y estoy siempre en busca de aprender nuevas herramientas para crear soluciones innovadoras que aporten valor."
 
     };
 

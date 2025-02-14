@@ -1,40 +1,29 @@
-.perfil-container {
-    width: 40%;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 30px;
-    box-shadow: 0 4px 8px rgba(183, 15, 15, 0.1);
-  
-    background-color: #222a29;
-    margin-left: 0px;
-}
 
 .perfil-header {
     margin-bottom: 100px;
+    color: #111010; 
 }
 
 .perfil-nombre {
     margin: 10px 0;
     font-size: 24px;
-    color: #f4f4f4;
-    
- 
-    
+    color: #111010; 
 }
 
 .avatar {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 3px solid #fff;
+    border: 3px solid #fff; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .perfil-grado {
     margin: 10px 0;
     font-size: 18px;
-    color: #e4dfdf;
+    color: #111010; 
     font-weight: bold;
+
 }
 
 .perfil-contacto {
@@ -42,6 +31,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    color: #fff; 
 }
 
 .icono-img {

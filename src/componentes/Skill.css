@@ -1,13 +1,10 @@
-.skill-container  {
-    width: 40%;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 30px;
-    box-shadow: 0 4px 8px rgba(183, 15, 15, 0.1);
-   
-    background-color: #222a29;
-    margin-left: 0px;
-}
+/* @media (max-width: 768px) {
+  .skill-container {
+      width: 100%;
+      max-width: 100%; 
+  }
+} */
+
 
 .Most-languages {
     width: 400px; 
@@ -17,7 +14,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     margin: 20px; 
     padding: 10px; 
-    background-color: #f0f0f0; 
+     background-color: #1e07c7;  
     transition: transform 0.3s ease;
   }
   
@@ -42,3 +39,28 @@
     background-color: #fff;
     
   }
+  .icono-skill {
+    width: 100px; /* Increased from 40px */
+    height: 100px; /* Increased from 40px */
+}
+
+.icono {
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.icono:hover {
+    transform: scale(1.30); 
+}
+
+.stats-images {
+  display: flex; /* Usa flexbox para centrar las imágenes dentro de este contenedor */
+  justify-content: center; /* Centra las imágenes horizontalmente */
+  margin-bottom: 5px; /* Agrega un margen inferior para separar las imágenes del icono */
+}
+
+.Github-stats, .Most-languages {
+  margin: 0 -10px; /* Agrega margen entre las imágenes */
+  max-width: 100%; /* Asegúrate de que las imágenes no se salgan del contenedor */
+  height: auto; /* Mantén la proporción de la imagen */
+}

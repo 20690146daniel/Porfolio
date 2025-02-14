@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "name": "Aplicacion de Citas Medicas",
+    "image": "/static/images/cards/paella.jpg",
+    "technologies": ["Flutter", "MongoDB Atlas", "Git Hub"],
+    "date": "Mayo 28, 2024",
+    "description": "De acuerdo a las necesidades presentadas, Se desarrolo una aplicacion movil para la reserva de citas medicas.Se tomo en cuenta primero la rapidez con la que se necesesitaba por lo que se decidio utilizar MongoDB ATLAS como backend debido a su escalavidiad.Como framwork se utlizo Flutter para la creacion de la aplicacion movil, tomando en cuenta la versatilidad de este lenguaje. Se utilizo Git Hub para el control de versiones del codigo y el manejo de tareas.",
+    "details": [
+      "Con un equipo de aprendices, se desarrollo una aplicacion movil para la reserva de citas medicas, con el objetivo de entregar un producto funcional y de calidad.",
+      "El equipo se compone de 3 personas siendo yo el lider del proyecti tome las deciones tecnicas y separacion de tareas.",
+      "Se utilizo la metodologia Agile para el desarrollo del proyecto, priorizando la velocidad y la calidad del producto.",
+      "2 companeros de trabajo se encargaron de desarrolo UI,UX y documentacion del proyecto.",
+      "Yo me encargue de la integracion del backend con la aplicacion y parte del el fron-end con el backend.",
+      "Se presento el Funcionamiento mediante una reunion en meet con los docentes encargados de supervisar el proyecto."
+      
+    ]
+  }
+]
