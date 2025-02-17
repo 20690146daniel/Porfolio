@@ -2,7 +2,6 @@ import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
-import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
 import Collapse from '@mui/material/Collapse';
@@ -12,7 +11,8 @@ import Typography from '@mui/material/Typography';
 import { red } from '@mui/material/colors';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
-import Pagination from '@mui/material/Pagination'; // Import the Pagination component
+import Pagination from '@mui/material/Pagination';
+import SliderProjects from './Slider/Slider'; 
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
@@ -46,7 +46,7 @@ const RecipeReviewCard = () => {
     setPage(value); 
   };
 
-  // Calculate the projects to display for the current page
+  
   const indexOfLastProject = page * projectsPerPage;
   const indexOfFirstProject = indexOfLastProject - projectsPerPage;
   const currentProjects = projects.slice(indexOfFirstProject, indexOfLastProject);
@@ -73,12 +73,7 @@ const RecipeReviewCard = () => {
               title={project.name}
               subheader={project.date}
             />
-            <CardMedia
-              component="img"
-              height="194"
-              image={project.image}
-              alt={project.name}
-            />
+            <SliderProjects images={project.images} /> 
             <CardContent>
               <Typography variant="body2" sx={{ color: 'text.secondary' }}>
                 {project.description}

@@ -2,18 +2,30 @@
   {
     "id": 1,
     "name": "Aplicacion de Citas Medicas",
-    "image": "/public/images/flutter.jfif",
-    "technologies": ["Flutter", "MongoDB Atlas", "Git Hub"],
+    "images": [
+      "/public/proyectoflutter/1.jpeg",
+      "/public/proyectoflutter/2.jpeg",
+      "/public/proyectoflutter/3.jpeg",
+      "/public/proyectoflutter/4.jpeg",
+      "/public/proyectoflutter/5.jpeg",
+      "/public/proyectoflutter/6.jpeg",
+      "/public/proyectoflutter/7.jpeg",
+      "/public/proyectoflutter/8.jpeg"
+    ],
+    "technologies": [
+      "Flutter",
+      "MongoDB Atlas",
+      "Git Hub"
+    ],
     "date": "Mayo 28, 2024",
     "description": "De acuerdo a las necesidades presentadas, Se desarrolo una aplicacion movil para la reserva de citas medicas.Se tomo en cuenta primero la rapidez con la que se necesesitaba por lo que se decidio utilizar MongoDB ATLAS como backend debido a su escalavidiad.Como framwork se utlizo Flutter para la creacion de la aplicacion movil, tomando en cuenta la versatilidad de este lenguaje. Se utilizo Git Hub para el control de versiones del codigo y el manejo de tareas.",
     "details": [
       "Con un equipo de aprendices, se desarrollo una aplicacion movil para la reserva de citas medicas, con el objetivo de entregar un producto funcional y de calidad.",
-      "El equipo se compone de 3 personas siendo yo el lider del proyecti tome las deciones tecnicas y separacion de tareas.",
+      "El equipo se compone de 3 personas siendo yo el lider del proyecto y tome las decisiones tecnicas y separacion de tareas.",
       "Se utilizo la metodologia Agile para el desarrollo del proyecto, priorizando la velocidad y la calidad del producto.",
-      "2 companeros de trabajo se encargaron de desarrolo UI,UX y documentacion del proyecto.",
-      "Yo me encargue de la integracion del backend con la aplicacion y parte del el fron-end con el backend.",
-      "Se presento el Funcionamiento mediante una reunion en meet con los docentes encargados de supervisar el proyecto."
-      
+      "2 compañeros de trabajo se encargaron del desarrollo UI,UX y documentación del proyecto.",
+      "Yo me encargué de la integración del backend con la aplicación y parte del frontend con el backend.",
+      "Se presentó el funcionamiento mediante una reunión en meet con los docentes encargados de supervisar el proyecto."
     ]
   }
 ]
