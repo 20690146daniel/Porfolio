@@ -6,7 +6,7 @@ function Contacto() {
     return (
 
         <>
-            <h2>{user.titulo}</h2>
+            <h2 className="titulo-contacto">{user.titulo}</h2>
             <div className="perfil-contacto">
 
                 <div className="icono" style={{ textAlign: "left" }}>

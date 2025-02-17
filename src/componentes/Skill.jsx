@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { github, skill } from "./const";
+import { github } from "./const";
 import "./Skill.css";
 
 function Skill() {
@@ -16,77 +16,14 @@ function Skill() {
     }, []);
 
     return (
-        <div className="skill-container">
-            <img className='Github-stats' src={statsUrl} alt="GitHub Stats" />
-            <img className='Most-languages' src={mostUrl} alt="Most Languages" />
-            <div className="icono" style={{ textAlign: "left" }}>
-
-                <a target="_blank" rel="noopener norefr">
-                    <img
-                        className="icono-skill"
-                        src={skill.flutter}
-                    />
-                </a>
-            </div>
-            <div className="icono" style={{ textAlign: "left" }}>
-                <a target="_blank" rel="noopener norefr">
-                    <img
-                        className="icono-skill"
-                        src={skill.react}
-                    />
-                </a>
-            </div>
-            <div className="icono" style={{ textAlign: "left" }}>
-                <a target="_blank" rel="noopener norefr">
-                    <img
-                        className="icono-skill"
-                        src={skill.laravel}
-                    />
-                </a>
-            </div>
-            <div className="icono" style={{ textAlign: "left" }}>
-                <a target="_blank" rel="noopener norefr">
-                    <img
-                        className="icono-skill"
-                        src={skill.node}
-                    />
-                </a>
-            </div>
-            <div className="icono" style={{ textAlign: "left" }}>
-                <a target="_blank" rel="noopener norefr">
-                    <img
-                        className="icono-skill"
-                        src={skill.js}
-                    />
-                </a>
-            </div>
-            <div className="icono" style={{ textAlign: "left" }}>
-                <a target="_blank" rel="noopener norefr">
-                    <img
-                        className="icono-skill"
-                        src={skill.php}
-                    />
-                </a>
+        <footer className="footer">
+            <h2>Estadisticas de GitHub</h2>
+            <div className="skill-container">
+                <img className='Github-stats' src={statsUrl} alt="GitHub Stats" />
+                <img className='Most-languages' src={mostUrl} alt="Most Languages" />
             </div>
 
-
-            <div className="icono" style={{ textAlign: "left" }}>
-                <a target="_blank" rel="noopener norefr">
-                    <img
-                        className="icono-skill"
-                        src={skill.mongo}
-                    />
-                </a>
-            </div>
-            <div className="icono" style={{ textAlign: "left" }}>
-                <a target="_blank" rel="noopener norefr">
-                    <img
-                        className="icono-skill"
-                        src={skill.mysql}
-                    />
-                </a>
-            </div>
-        </div>
+        </footer>
 
 
 

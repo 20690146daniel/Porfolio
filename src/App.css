@@ -47,13 +47,21 @@
   height: 100vh; 
 }
 
-/* Estilos para PerfilContainer */
+
 .perfil-container {
   width: 300px;
   border: 1px solid #ccc;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(183, 15, 15, 0.1); /* Corrección del error */
+  box-shadow: 0 4px 8px rgba(183, 15, 15, 0.1); 
   background-color: #e8e9eb;
-  margin-right: 20px; /* Espacio entre componentes */
+  margin-right: 20px; 
+}
+h2{
+  font-size: 3.2em;
+  line-height: 1.1;
+  font-weight: 700; 
+  color: #ccc;
+  margin-bottom: 0.5em; 
+  padding-top: 1em; 
 }

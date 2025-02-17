@@ -14,7 +14,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     margin: 20px; 
     padding: 10px; 
-     background-color: #1e07c7;  
+     background-color: #080521ca;  
     transition: transform 0.3s ease;
   }
   
@@ -26,27 +26,28 @@
     height: auto; 
     border: 2px solid #333; 
     border-radius: 10px; 
-    box-shadow: 0 4px 8px rgba(242, 6, 6, 0.2); 
+    box-shadow: 0 4px 8px rgba(24, 8, 8, 0.877); 
     margin: 20px; 
     padding: 10px; 
-    background-color: #1e07c7; 
+    background-color: #02000bda; 
     transition: transform 0.3s ease;
   
   }
   
   .Github-stats:hover {
     transform: scale(1.45);
-    background-color: #fff;
+    background-color: #130d0dda;
     
   }
   .icono-skill {
-    width: 100px; /* Increased from 40px */
-    height: 100px; /* Increased from 40px */
+    width: 85px; 
+    height: 85px; 
 }
 
 .icono {
     display: inline-block;
     transition: transform 0.2s ease;
+    
 }
 
 .icono:hover {
@@ -54,13 +55,14 @@
 }
 
 .stats-images {
-  display: flex; /* Usa flexbox para centrar las imágenes dentro de este contenedor */
-  justify-content: center; /* Centra las imágenes horizontalmente */
-  margin-bottom: 5px; /* Agrega un margen inferior para separar las imágenes del icono */
+  display: flex; 
+  justify-content: center; 
+  margin-bottom: 10px; 
 }
 
 .Github-stats, .Most-languages {
-  margin: 0 -10px; /* Agrega margen entre las imágenes */
-  max-width: 100%; /* Asegúrate de que las imágenes no se salgan del contenedor */
-  height: auto; /* Mantén la proporción de la imagen */
+  margin: 0 10px; 
+  
+  width: 500px;
+  height: auto; 
 }
