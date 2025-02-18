@@ -10,7 +10,7 @@ const SliderProjects = ({ projectId }) => {
     const [projectImages, setProjectImages] = useState([]);
 
     useEffect(() => {
-        fetch('/projects.json')
+        fetch('./projects.json')
             .then((response) => response.json())
             .then((data) => {
                 setProjects(data);
