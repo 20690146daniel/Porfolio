@@ -1,46 +1,36 @@
+/* General styles */
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-
-a:hover {
-  color: #535bf2;
-}
-
 body {
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: Arial, sans-serif;
 }
 
-h1 {
-  color: #00FF00;
-  /* Verde brillante similar a la terminal de Linux */
-  background-color: #000000;
-  /* Fondo negro */
-  font-family: 'Courier New', Courier, monospace;
-  /* Fuente tipo terminal */
-  padding: 10px;
-  /* Espaciado interno */
-  text-align: center;
-  /* Centrar el texto */
+#root {
+  width: 100%;
+  padding: 20px;
+}
 
+/* Heading Styles */
+h1 {
+  color: #00FF00; /* Bright green similar to Linux terminal */
+  background-color: #000000; /* Black background */
+  font-family: 'Courier New', Courier, monospace; /* Terminal-like font */
+  padding: 10px;
+  text-align: center;
 }
 
 h2 {
@@ -51,12 +41,25 @@ h2 {
   text-align: center;
 }
 
+/* Text Styles */
 p {
   color: #fafafa;
   line-height: 1.6;
   margin-bottom: 20px;
 }
 
+/* Link Styles */
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+/* Button Styles */
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -78,6 +81,22 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* Responsive styles */
+@media (max-width: 768px) {
+  /* Styles for smaller screens (like mobile devices) */
+  #root {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 769px) {
+  /* Styles for larger screens (like desktops) */
+  #root {
+    padding: 40px;
+  }
+}
+
+/* Light mode styles */
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
