@@ -12,7 +12,7 @@ import { red } from '@mui/material/colors';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import Pagination from '@mui/material/Pagination';
-import SliderProjects from './Slider/Slider';
+import SliderProjects from './Slider';
 
 const toggleScale = (event) => {
   const element = event.currentTarget;
@@ -60,10 +60,14 @@ const RecipeReviewCard = () => {
   const currentProjects = projects.slice(indexOfFirstProject, indexOfLastProject);
 
   return (
+
     <main className="main-content">
+      
+    
+      <title>Mis Proyectos</title>
       <Typography variant="h4" gutterBottom>
         Mis Proyectos
-      </Typography>
+      </Typography>phy
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: '16px' }}>
         {currentProjects.map((project) => (
           <Card key={project.id} sx={{ maxWidth: 345 }}>
