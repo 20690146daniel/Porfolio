@@ -16,13 +16,12 @@ const SliderProjects = ({ projectId }) => {
                 setProjects(data);
                 const project = data.find(project => project.id === projectId);
                 if (project) {
-                    const updatedImages = project.images.map(img => img.replace('/public', ''));
-                    setProjectImages(updatedImages);
+                    setProjectImages(project.images);
                 }
             })
             .catch((error) => console.error('Error loading projects:', error));
     }, [projectId]);
-    
+
 
     const settings = {
         dots: true,

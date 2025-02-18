@@ -4,14 +4,14 @@
     "name": "Aplicacion de Citas Medicas",
     "images": [
       "./proyectoflutter/1.jpeg",
-      "/public/proyectoflutter/2.jpeg",
-      "/public/proyectoflutter/4.jpeg",
-      "/public/proyectoflutter/3.jpeg",
-      "/public/proyectoflutter/4.jpeg",
-      "/public/proyectoflutter/5.jpeg",
-      "/public/proyectoflutter/6.jpeg",
-      "/public/proyectoflutter/7.jpeg",
-      "/public/proyectoflutter/8.jpeg"
+      "/proyectoflutter/2.jpeg",
+      "/proyectoflutter/4.jpeg",
+      "/proyectoflutter/3.jpeg",
+      "/proyectoflutter/4.jpeg",
+      "/proyectoflutter/5.jpeg",
+      "/proyectoflutter/6.jpeg",
+      "/proyectoflutter/7.jpeg",
+      "/proyectoflutter/8.jpeg"
     ],
     "technologies": [
       "Flutter",
@@ -27,23 +27,22 @@
       "Para el desarrollo de la aplicación móvil, se utilizó Flutter, un framework multiplataforma que permite crear aplicaciones nativas para iOS y Android desde un solo código base. Esta elección se basó en la versatilidad, rapidez de desarrollo y la capacidad de Flutter para ofrecer interfaces de usuario fluidas y atractivas.",
       "Control de versiones con GitHub:",
       "Se implementó GitHub para el control de versiones del código, lo que facilitó la colaboración entre el equipo de desarrollo y permitió un manejo eficiente de las tareas. Además, se utilizaron issues y proyectos de GitHub para organizar y priorizar las funcionalidades, asegurando un flujo de trabajo ágil y ordenado."
-      ]
+    ]
   },
   {
     "id": 2,
     "name": "Segimiento de indicadores",
     "images": [
-      "/public/proyectolaravel/1.jpeg",
-      "/public/proyectolaravel/2.jpeg",
-      "/public/proyectolaravel/3.jpeg",
-      "/public/proyectolaravel/7.jpeg",
-      "/public/proyectolaravel/8.jpeg",
-      "/public/proyectolaravel/9.jpeg",
-      "/public/proyectolaravel/10.jpeg",
-      "/public/proyectolaravel/11.jpeg",
-      "/public/proyectolaravel/12.jpeg",
-      "/public/proyectolaravel/13.jpeg"
-    
+      "/proyectolaravel/1.jpeg",
+      "/proyectolaravel/2.jpeg",
+      "/proyectolaravel/3.jpeg",
+      "/proyectolaravel/7.jpeg",
+      "/proyectolaravel/8.jpeg",
+      "/proyectolaravel/9.jpeg",
+      "/proyectolaravel/10.jpeg",
+      "/proyectolaravel/11.jpeg",
+      "/proyectolaravel/12.jpeg",
+      "/proyectolaravel/13.jpeg"
     ],
     "technologies": [
       "Laravel",
