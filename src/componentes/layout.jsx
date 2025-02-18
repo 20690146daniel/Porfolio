@@ -1,7 +1,7 @@
 import * as React from 'react';
 import RecipeReviewCard from './RecipeReviewCard';
 import Skill from './Skill';
-import Perfil from './Perfil';
+import Perfil from './perfil.jsx';
 import Tecnologias from './tecnologias.jsx';
 import './Layout.css';
 
