@@ -3,7 +3,7 @@ import * as React from 'react';
 import RecipeReviewCard from './RecipeReviewCard';
 import Skill from './Skill';
 import Perfil from './perfil';
-import Tecnologias from './Tecnologias';
+import Tecnologias from './Tecnologias.jsx';
 import './layout.css';
 
 const Layout = () => {

@@ -18,14 +18,46 @@
       "Git Hub"
     ],
     "date": "Mayo 28, 2024",
-    "description": "De acuerdo a las necesidades presentadas, Se desarrolo una aplicacion movil para la reserva de citas medicas.Se tomo en cuenta primero la rapidez con la que se necesesitaba por lo que se decidio utilizar MongoDB ATLAS como backend debido a su escalavidiad.Como framwork se utlizo Flutter para la creacion de la aplicacion movil, tomando en cuenta la versatilidad de este lenguaje. Se utilizo Git Hub para el control de versiones del codigo y el manejo de tareas.",
+    "description": "De acuerdo con las necesidades presentadas, se desarrolló una aplicación móvil para la reserva de citas médicas, priorizando la rapidez, escalabilidad y facilidad de uso. Para cumplir con estos objetivos, se tomaron decisiones técnicas estratégicas en cada fase del proyecto.",
     "details": [
-      "Con un equipo de aprendices, se desarrollo una aplicacion movil para la reserva de citas medicas, con el objetivo de entregar un producto funcional y de calidad.",
-      "El equipo se compone de 3 personas siendo yo el lider del proyecto y tome las decisiones tecnicas y separacion de tareas.",
-      "Se utilizo la metodologia Agile para el desarrollo del proyecto, priorizando la velocidad y la calidad del producto.",
-      "2 compañeros de trabajo se encargaron del desarrollo UI,UX y documentación del proyecto.",
-      "Yo me encargué de la integración del backend con la aplicación y parte del frontend con el backend.",
-      "Se presentó el funcionamiento mediante una reunión en meet con los docentes encargados de supervisar el proyecto."
+      "Backend con MongoDB Atlas",
+      "Se eligió MongoDB Atlas como base de datos principal debido a su escalabilidad, alto rendimiento y facilidad de integración. Esta solución permitió manejar grandes volúmenes de datos de manera eficiente, garantizando un tiempo de respuesta óptimo incluso durante picos de demanda.",
+      "Framework Flutter",
+      "Para el desarrollo de la aplicación móvil, se utilizó Flutter, un framework multiplataforma que permite crear aplicaciones nativas para iOS y Android desde un solo código base. Esta elección se basó en la versatilidad, rapidez de desarrollo y la capacidad de Flutter para ofrecer interfaces de usuario fluidas y atractivas.",
+      "Control de versiones con GitHub:",
+      "Se implementó GitHub para el control de versiones del código, lo que facilitó la colaboración entre el equipo de desarrollo y permitió un manejo eficiente de las tareas. Además, se utilizaron issues y proyectos de GitHub para organizar y priorizar las funcionalidades, asegurando un flujo de trabajo ágil y ordenado."
+      ]
+  },
+  {
+    "id": 2,
+    "name": "Segimiento de indicadores",
+    "images": [
+      "/public/proyectolaravel/1.jpeg",
+      "/public/proyectolaravel/2.jpeg",
+      "/public/proyectolaravel/3.jpeg",
+      "/public/proyectolaravel/7.jpeg",
+      "/public/proyectolaravel/8.jpeg",
+      "/public/proyectolaravel/9.jpeg",
+      "/public/proyectolaravel/10.jpeg",
+      "/public/proyectolaravel/11.jpeg",
+      "/public/proyectolaravel/12.jpeg",
+      "/public/proyectolaravel/13.jpeg"
+    
+    ],
+    "technologies": [
+      "Laravel",
+      "MySQL",
+      "Git Hub"
+    ],
+    "date": "Agosto 15, 2024",
+    "description": "Como parte del mantenimiento y evolución del proyecto, se implementaron nuevas funcionalidades y mejoras significativas, entre las cuales destaca la incorporación de un módulo de administración de jefes de área. Este módulo fue diseñado para optimizar la gestión de información y facilitar la toma de decisiones a nivel departamental.",
+    "details": [
+      "Integración de gráficas dinámicas:",
+      "Se desarrollaron gráficas interactivas que permiten visualizar datos clave de manera clara y eficiente. Estas gráficas proporcionan una representación visual del desempeño de cada área, facilitando la identificación de tendencias y áreas de oportunidad.",
+      "Generación de reportes personalizados:",
+      "Se implementó un sistema de generación de reportes que toma en cuenta las necesidades específicas indicadas por el jefe de departamento. Los reportes incluyen métricas relevantes, análisis comparativos y datos históricos, lo que permite una evaluación detallada del rendimiento.",
+      "Enfoque en las necesidades del usuario",
+      "Durante el desarrollo del módulo, se mantuvo una comunicación constante con el jefe de departamento para asegurar que las funcionalidades implementadas se alinearan con sus requerimientos y expectativas. Esto garantizó que la herramienta fuera intuitiva y de alto valor para el usuario final."
     ]
   }
 ]

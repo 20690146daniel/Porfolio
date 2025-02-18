@@ -4,7 +4,7 @@ import { skill } from "./const";
 const Tecnologias = () => {
   return (
     <aside className="tecnologias" style={{ display: 'flex', flexDirection: 'column' }}>
-      <h2>Tecnologias</h2>
+      <h1>Tecnologias</h1>
 
       <div className="icono" style={{ textAlign: "left" }}>
         <a target="_blank" rel="noopener noreferrer"> 

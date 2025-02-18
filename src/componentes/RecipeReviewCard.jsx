@@ -12,7 +12,17 @@ import { red } from '@mui/material/colors';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import Pagination from '@mui/material/Pagination';
-import SliderProjects from './Slider/Slider'; 
+import SliderProjects from './Slider/Slider';
+
+const toggleScale = (event) => {
+  const element = event.currentTarget;
+  if (element.style.transform === 'scale(1.2)') {
+    element.style.transform = 'scale(1)';
+  } else {
+    element.style.transform = 'scale(1.2)';
+  }
+};
+
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
@@ -26,27 +36,25 @@ const ExpandMore = styled((props) => {
 }));
 
 const RecipeReviewCard = () => {
-  const [expanded, setExpanded] = React.useState(false);
+  const [expanded, setExpanded] = React.useState(null);
   const [projects, setProjects] = React.useState([]);
-  const [page, setPage] = React.useState(1); // State for current page
-  const projectsPerPage = 5; // Projects to display per page
-
+  const [page, setPage] = React.useState(1);
+  const projectsPerPage = 4;
   React.useEffect(() => {
-    fetch('/projects.json') 
+    fetch('/projects.json')
       .then((response) => response.json())
       .then((data) => setProjects(data))
       .catch((error) => console.error('Error loading projects:', error));
   }, []);
 
-  const handleExpandClick = () => {
-    setExpanded(!expanded);
+  const handleExpandClick = (projectId) => {
+    setExpanded(expanded === projectId ? null : projectId);
   };
 
   const handlePageChange = (event, value) => {
-    setPage(value); 
+    setPage(value);
   };
 
-  
   const indexOfLastProject = page * projectsPerPage;
   const indexOfFirstProject = indexOfLastProject - projectsPerPage;
   const currentProjects = projects.slice(indexOfFirstProject, indexOfLastProject);
@@ -73,32 +81,34 @@ const RecipeReviewCard = () => {
               title={project.name}
               subheader={project.date}
             />
-            <SliderProjects images={project.images} /> 
+            <SliderProjects className="slider" onClick={toggleScale} projectId={project.id} />
+
             <CardContent>
               <Typography variant="body2" sx={{ color: 'text.secondary' }}>
                 {project.description}
               </Typography>
               <Typography variant="body2" sx={{ marginTop: 2, color: 'text.secondary' }}>
-                <strong>Tecnologías:</strong> {project.technologies.join(', ')}
+                <strong className='technologies'>Tecnologías:</strong> {project.technologies.join(', ')}
               </Typography>
             </CardContent>
             <CardActions disableSpacing>
               <ExpandMore
-                expand={expanded}
-                onClick={handleExpandClick}
-                aria-expanded={expanded}
+                expand={expanded === project.id}
+                onClick={() => handleExpandClick(project.id)}
+                aria-expanded={expanded === project.id}
                 aria-label="show more"
               >
                 <ExpandMoreIcon />
               </ExpandMore>
             </CardActions>
-            <Collapse in={expanded} timeout="auto" unmountOnExit>
+            <Collapse in={expanded === project.id} timeout="auto" unmountOnExit>
               <CardContent>
-                <Typography sx={{ marginBottom: 2 }}>Detalles:</Typography>
+                <Typography  sx={{ marginBottom: 2 }}>Detalles:</Typography>
                 {project.details.map((detail, index) => (
-                  <Typography key={index} sx={{ marginBottom: 2 }}>
-                    {detail}
-                  </Typography>
+                  <Typography key={index} sx={{ marginBottom: 2, color: 'black' }}>
+                  {detail}
+              </Typography>
+              
                 ))}
               </CardContent>
             </Collapse>
@@ -107,14 +117,15 @@ const RecipeReviewCard = () => {
       </div>
       <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
         <Pagination
-          count={Math.ceil(projects.length / projectsPerPage)} // Total number of pages
+          count={Math.ceil(projects.length / projectsPerPage)}
           page={page}
           onChange={handlePageChange}
-          color="primary"
+          color="default"
+          sx={{ "& .MuiPaginationItem-root": { color: "white" } }}
         />
       </div>
     </main>
   );
-}
+};
 
 export default RecipeReviewCard;
