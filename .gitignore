@@ -23,6 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-#archivos especificos de la aplicacion
+# #archivos especificos de la aplicacion
 
-src/componentes/const.js
+# src/componentes/const.js
