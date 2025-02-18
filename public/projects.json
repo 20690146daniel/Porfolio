@@ -3,8 +3,9 @@
     "id": 1,
     "name": "Aplicacion de Citas Medicas",
     "images": [
-      "/public/proyectoflutter/1.jpeg",
+      "./proyectoflutter/1.jpeg",
       "/public/proyectoflutter/2.jpeg",
+      "/public/proyectoflutter/4.jpeg",
       "/public/proyectoflutter/3.jpeg",
       "/public/proyectoflutter/4.jpeg",
       "/public/proyectoflutter/5.jpeg",
