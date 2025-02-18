@@ -14,7 +14,6 @@ const SliderProjects = ({ projectId }) => {
             .then((response) => response.json())
             .then((data) => {
                 setProjects(data);
-                // Encuentra el proyecto específico basado en el projectId
                 const project = data.find(project => project.id === projectId);
                 if (project) {
                     setProjectImages(project.images);
@@ -22,6 +21,7 @@ const SliderProjects = ({ projectId }) => {
             })
             .catch((error) => console.error('Error loading projects:', error));
     }, [projectId]);
+    
 
     const settings = {
         dots: true,
