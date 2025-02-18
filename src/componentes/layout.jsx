@@ -4,7 +4,7 @@ import RecipeReviewCard from './RecipeReviewCard';
 import Skill from './Skill';
 import Perfil from './perfil';
 import Tecnologias from './tecnologias.jsx';
-import './layout.css';
+import './Layout.css';
 
 const Layout = () => {
     return (
