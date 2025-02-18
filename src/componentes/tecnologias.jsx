@@ -1,5 +1,5 @@
 import React from "react"; 
-import { skill } from "./const";
+import { skill } from "./const.js";
 
 const Tecnologias = () => {
   return (

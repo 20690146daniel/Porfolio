@@ -1,7 +1,7 @@
 import React from "react";
 import "./perfil.css";
-import SobreMi from "./sobremi";
-import Contacto from "./contacto";
+import SobreMi from "./sobremi.jsx";
+import Contacto from "./contacto.jsx";
 import { user } from './const'
 function Perfil() {
 

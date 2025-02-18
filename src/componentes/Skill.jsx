@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { github } from "./const";
+import { github } from "./.js";
 import "./Skill.css";
 
 function Skill() {
