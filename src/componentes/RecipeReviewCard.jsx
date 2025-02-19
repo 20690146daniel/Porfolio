@@ -67,7 +67,7 @@ const RecipeReviewCard = () => {
       <title>Mis Proyectos</title>
       <Typography variant="h4" gutterBottom>
         Mis Proyectos
-      </Typography>phy
+      </Typography>
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: '16px' }}>
         {currentProjects.map((project) => (
           <Card key={project.id} sx={{ maxWidth: 345 }}>
@@ -119,7 +119,7 @@ const RecipeReviewCard = () => {
           </Card>
         ))}
       </div>
-      <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
+      <div  className="pagination">
         <Pagination
           count={Math.ceil(projects.length / projectsPerPage)}
           page={page}

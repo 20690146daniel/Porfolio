@@ -33,26 +33,6 @@
     box-shadow: 0 0 10px #00FF00; 
 }
 
-@media (max-width: 1024px) {
-    .main-content {
-        padding: 15px; /* Adjust padding for tablets */
-    }
-}
-
-@media (max-width: 768px) {
-    .main-content {
-        padding: 10px; /* Adjust padding for mobile phones */
-    }
-}
-
-@media (max-width: 480px) {
-    .main-content {
-        /* Further adjustments for smaller screens */
-        padding: 5px;
-        font-size: 14px; /* Reduce font-size on very small devices */
-    }
-}
- 
 
 
 .footer {
@@ -61,7 +41,6 @@
     padding: 10px;
     text-align: center;
 }
-
 
 .tecnologias {
     width: 200px;
@@ -73,7 +52,7 @@
     @media (max-width: 768px) {
         width: 100%;
     }
-}
+} 
 
 .technologies {
     flex: 1;
@@ -84,4 +63,9 @@
     @media (max-width: 768px) {
         padding: 10px;
     }
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
