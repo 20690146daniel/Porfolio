@@ -6,7 +6,7 @@ export const user = {
     imageSize: "150px",
     titulo: "Redes Sociales",
     email: "danielcrv1100@gmail.com",
-    github: "https://github.com/20690146daniel/Daniel-Cervantes",
+    github: "https://github.com/20690146daniel",
     linkedin: "https://www.linkedin.com/in/daniel-cervantes-3783602b3/",
 
 };
