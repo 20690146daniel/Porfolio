@@ -1,29 +1,23 @@
-import * as React from 'react';
-
-import RecipeReviewCard from './RecipeReviewCard';
-import Skill from './Skill';
+import React from 'react';
 import Perfil from './perfil';
-import Tecnologias from './tecnologias.jsx';
-import './Layout.css';
+import Proyectos from './proyectos';
+import Tecnologias from './tecnologias';
+import Skill from './Skill';
+import './colors.css';
 
 const Layout = () => {
     return (
-
-        <div className="layout">
-            <div className="horizontal-section ">
-                <Perfil />
-                <RecipeReviewCard />
-                <Tecnologias/>
-               
-            </div>
-            <Skill />
-
-
-
+        <div className="ubuntu-terminal-theme" style={{
+            backgroundColor: 'var(--ubuntu-terminal-dark)',
+            color: 'var(--ubuntu-terminal-text)',
+            minHeight: '100vh'
+        }}>
+            <Perfil />
+            <Proyectos />
+              {/* <Skill /> */}
+            <Tecnologias />
         </div>
-
-
-    )
-}
+    );
+};
 
 export default Layout;

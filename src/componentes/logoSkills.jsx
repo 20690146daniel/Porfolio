@@ -1,26 +1,34 @@
 import React, { useState } from "react";
-import { skills } from "./const.js";
+import { OverlayTrigger, Tooltip } from "react-bootstrap";
 
 const TechnologyLogo = ({ imageUrl, technologyName, utilidad }) => {
-  const [showTooltip, setShowTooltip] = useState(false);
-
   return (
-    <div
-      className="icono"
-      style={{ position: "relative", display: "inline-block" }}
-      onMouseEnter={() => setShowTooltip(true)}
-      onMouseLeave={() => setShowTooltip(false)}
+    <OverlayTrigger
+      placement="top"
+      overlay={
+        <Tooltip>
+          <strong>{technologyName}</strong>
+          {utilidad && ` - ${utilidad}`}
+        </Tooltip>
+      }
     >
-      <img className="logo"
-        src={imageUrl}
-        alt={technologyName}
-      />
-      {showTooltip && (
-        <div className="tooltip">
-          {technologyName} - {utilidad}
-        </div>
-      )}
-    </div>);
+      <div className="d-inline-block p-2">
+        <img 
+          src={imageUrl}
+          alt={technologyName}
+          className="img-fluid"
+          style={{
+            width: '50px',
+            height: '50px',
+            objectFit: 'contain',
+            transition: 'transform 0.2s ease-in-out'
+          }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.1)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
+        />
+      </div>
+    </OverlayTrigger>
+  );
 };
 
 export default TechnologyLogo;

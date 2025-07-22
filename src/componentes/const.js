@@ -2,7 +2,7 @@
 export const user = {
     name: "Daniel Cervantes Villanueva",
     grado: "Ingeniero en Sistemas Computacionales",
-    img: "/images/cvimagen.jfif",
+    img: "/images/danielcv.jpeg",
     imageSize: "150px",
     titulo: "Redes Sociales",
     email: "danielcrv1100@gmail.com",
@@ -64,6 +64,49 @@ export const skills = [
     {
         name: "HTML-CSS",
         utilidad: "Lenguajes de marcas y estilos para desarrollo web",
-        imageUrl:"https://th.bing.com/th/id/OIP.r0TkcCU3hKl7yuG5fFcZVAHaD0?rs=1&pid=ImgDetMain",
-    }
+        imageUrl: "https://th.bing.com/th/id/OIP.r0TkcCU3hKl7yuG5fFcZVAHaD0?rs=1&pid=ImgDetMain",
+    },
+    {
+        name: "React Native",
+        utilidad: "Desarrollo de aplicaciones móviles multiplataforma",
+        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
+    },
+    {
+        name: "Postman",
+        utilidad: "Pruebas y desarrollo de APIs",
+        imageUrl: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
+    },
+    {
+        name: "Google Cloud Platform",
+        utilidad: "Servicios en la nube para infraestructura y desarrollo",
+        imageUrl: "https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg",
+    },
+    {
+        name: "TSX", // O TypeScript/React si prefieres ser más específico con el lenguaje
+        utilidad: "Desarrollo de componentes React con TypeScript",
+        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png", // Usamos el logo de TypeScript
+    },
+    {
+        name: "GitHub",
+        utilidad: "Control de versiones y colaboración en proyectos",
+        imageUrl: "https://www.vectorlogo.zone/logos/github/github-icon.svg",
+    },
+    {
+        name: "Bootstrap",
+        utilidad: "Framework CSS para diseño responsivo y componentes UI",
+        imageUrl: "https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg",
+    },
+    {
+        name: "Tailwind CSS",
+        utilidad: "Framework CSS para diseño moderno y utilidades",
+        imageUrl: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+    },
+    {
+        name: "Docker",
+        utilidad: "Contenerización de aplicaciones para despliegue y desarrollo",
+        imageUrl: "https://www.vectorlogo.zone/logos/docker/docker-icon.svg",
+    },
+    
+
+
 ];
