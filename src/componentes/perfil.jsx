@@ -1,5 +1,5 @@
 import React from "react";
-import SobreMi from "./sobreMi"; 
+import SobreMi from "./sobremi"; 
 import Contacto from "./contacto";
 import { user } from './const';
 
