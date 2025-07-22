@@ -2,7 +2,7 @@ import React from 'react';
 import Perfil from './perfil';
 import Proyectos from './proyectos';
 import Tecnologias from './tecnologias';
-import Skill from './Skill';
+// import Skill from './Skill';
 import './colors.css';
 
 const Layout = () => {
