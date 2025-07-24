@@ -34,7 +34,7 @@ const Proyectos = () => {
       minHeight: '100vh'
     }}>
      
-      {/* Terminal window dots */}
+     
       <div style={{
         position: 'absolute',
         top: '10px',
@@ -69,7 +69,6 @@ const Proyectos = () => {
         }}></span>
       </div>
 
-      {/* Animated background elements */}
       <div style={{
         position: 'absolute',
         top: 0,
@@ -141,7 +140,7 @@ const Proyectos = () => {
                 position: 'relative',
                 zIndex: hoveredProject === project.id ? 5 : 1
               }}>
-                {/* Glow effect on hover */}
+               
                 <div style={{
                   position: 'absolute',
                   top: 0,
@@ -194,7 +193,7 @@ const Proyectos = () => {
                     </div>
                   </div>
                   
-                  {/* Project image slider - ahora con efecto de sobresalir */}
+                 
                   <div style={{
                     borderRadius: '10px',
                     overflow: 'visible',
@@ -216,7 +215,7 @@ const Proyectos = () => {
                     {project.description}
                   </p>
                   
-                  {/* Technologies chips */}
+                 
                   <div className="mb-3" style={{
                     display: 'flex',
                     flexWrap: 'wrap',
@@ -298,7 +297,7 @@ const Proyectos = () => {
           ))}
         </div>
         
-        {/* Pagination with modern style */}
+       
         {projects.length > projectsPerPage && (
           <nav className="mt-5">
             <ul className="pagination justify-content-center" style={{
@@ -377,7 +376,7 @@ const Proyectos = () => {
         )}
       </div>
 
-      {/* CSS animations */}
+     
       <style jsx>{`
         @keyframes blink {
           0%, 100% { opacity: 1; }

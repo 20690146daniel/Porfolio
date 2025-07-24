@@ -145,7 +145,7 @@ const SliderProjects = ({ projectId }) => {
                 )}
             </Slider>
 
-            {/* Modal para imagen ampliada */}
+            
             {selectedImage && (
                 <div 
                     style={{
@@ -204,7 +204,7 @@ const SliderProjects = ({ projectId }) => {
                 </div>
             )}
 
-            {/* Animaciones CSS */}
+           
             <style jsx>{`
                 @keyframes zoomIn {
                     from { transform: scale(0.8); opacity: 0; }
